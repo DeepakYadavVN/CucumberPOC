@@ -60,10 +60,11 @@ public class LoginStep {
 //	    // Write code here that turns the phrase above into concrete actions
 //		System.out.println("Test3");
 //	}
-//	
-//	@Then("^User should not be login sucessfully$")
-//	public void user_should_not_be_login_sucessfully() throws Throwable {
-//	    // Write code here that turns the phrase above into concrete actions
-//		System.out.println("Test4");
-//	}
+	
+	@Then("^User should not be login sucessfully$")
+	public void user_should_not_be_login_sucessfully() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		System.out.println("Test4");
+		System.out.println("test1");
+	}
 }
